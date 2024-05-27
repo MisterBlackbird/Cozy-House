@@ -182,7 +182,6 @@ button:hover{
 
 .fourth-section{
     background: #FFF;
-    height: 611px;
 }
 .fourth-section h2{
     color: #545454;
@@ -198,6 +197,7 @@ button:hover{
     gap: 120px;
     flex-wrap: wrap;
     padding-top: 60px;
+    padding-bottom: 100px;
 }
 .fourth-section-wrap{
     display: flex;
