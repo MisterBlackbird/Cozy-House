@@ -107,6 +107,7 @@ header{
 }
 button:hover{
     background: #FDDCC4;
+    cursor: pointer;
 }
 
 
@@ -268,4 +269,52 @@ button:hover{
 
 footer{
     background: url(../images/footer-background.png) no-repeat center/cover;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.footer-wrap h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #F1CDB3;
+}
+.footer-wrap h3{
+    font-size: 35px;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 45.5px;
+}
+.contacts h3{
+    width: 278px;
+}
+.location h3{
+    width: 270px;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.location h4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contacts h4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
