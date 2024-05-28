@@ -94,9 +94,6 @@
     }
 }
 @media screen and (max-width: 320px){
-    /* .body2{
-        max-width: 320px;
-    } */
     nav{
         position: relative;
         width: 100%;
@@ -140,7 +137,6 @@
         transition: 0.5s;
         background: #292929;
         font-size: 32px;
-        font-weight: 400;
     }
     .navigation.active .burger-line{
         transition: 0.5s;
