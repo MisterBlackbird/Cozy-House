@@ -93,9 +93,6 @@
         background: url(../images/Arrow-left.png) no-repeat center, #FDDCC4;
     }
 }
-
-
-
 @media screen and (max-width: 320px){
     /* .body2{
         max-width: 320px;
